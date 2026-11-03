@@ -1,0 +1,42 @@
+{
+  "classes": [
+    "Pepper__bell___Bacterial_spot",
+    "Pepper__bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato_Bacterial_spot",
+    "Tomato_Early_blight",
+    "Tomato_Late_blight",
+    "Tomato_Leaf_Mold",
+    "Tomato_Septoria_leaf_spot",
+    "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "Tomato__Target_Spot",
+    "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "Tomato__Tomato_mosaic_virus",
+    "Tomato_healthy",
+    "non_crop"
+  ],
+  "class_to_disease_id": {
+    "Pepper__bell___Bacterial_spot": "pepper-bacterial-spot",
+    "Pepper__bell___healthy": "pepper-healthy",
+    "Potato___Early_blight": "potato-early-blight",
+    "Potato___Late_blight": "potato-late-blight",
+    "Potato___healthy": "potato-healthy",
+    "Tomato_Bacterial_spot": "tomato-bacterial-spot",
+    "Tomato_Early_blight": "tomato-early-blight",
+    "Tomato_Late_blight": "tomato-late-blight",
+    "Tomato_Leaf_Mold": "tomato-leaf-mold",
+    "Tomato_Septoria_leaf_spot": "tomato-septoria-leaf-spot",
+    "Tomato_Spider_mites_Two_spotted_spider_mite": "tomato-spider-mites",
+    "Tomato__Target_Spot": "tomato-target-spot",
+    "Tomato__Tomato_YellowLeaf__Curl_Virus": "tomato-yellow-leaf-curl",
+    "Tomato__Tomato_mosaic_virus": "tomato-mosaic-virus",
+    "Tomato_healthy": "tomato-healthy",
+    "non_crop": "non-crop"
+  },
+  "non_crop_index": 15,
+  "input_size": 224,
+  "val_accuracy": 0.9862174578866769,
+  "timestamp": 1793311686.366916
+}

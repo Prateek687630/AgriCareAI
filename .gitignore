@@ -1,0 +1,41 @@
+
+# Downloaded datasets - keep locally, don't upload
+/archive/
+/data/
+**/datasets/
+**/dataset/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+
+# Temporary files
+*.log
+*.tmp
+.cache/
+.pytest_cache/
+
+# Training checkpoints
+**/checkpoints/
+**/runs/
+*.ckpt
+*.pt
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+.next/
+coverage/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

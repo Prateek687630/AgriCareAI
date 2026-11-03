@@ -1,0 +1,68 @@
+// Demo data shown on first launch so the Reports and Dashboard pages are not empty.
+const daysAgo = (d) => new Date(Date.now() - d * 86_400_000).toISOString()
+
+export const DEFAULT_PROFILE = {
+  name: 'Ramesh Patel',
+  phone: '9876543210',
+  email: '',
+  village: 'Berasia',
+  district: 'Bhopal',
+  state: 'Madhya Pradesh',
+  landSize: '5',
+  landUnit: 'acre',
+  mainCrops: 'Wheat, Soybean, Tomato',
+  soilType: 'Black (Vertisol)',
+  irrigation: 'Tube well',
+  language: 'Hindi',
+}
+
+export const SEED_REPORTS = [
+  {
+    id: 'demo-1',
+    type: 'disease',
+    date: daysAgo(2),
+    crop: 'Tomato',
+    diseaseId: 'tomato-early-blight',
+    title: 'Tomato – Early Blight',
+    confidence: 91.4,
+    healthy: false,
+    severity: 'Moderate',
+    thumbnail: null,
+    demo: true,
+  },
+  {
+    id: 'demo-2',
+    type: 'soil',
+    date: daysAgo(6),
+    crop: 'Wheat',
+    title: 'Wheat – Fertilizer plan (5 acre)',
+    inputs: { crop: 'Wheat', area: 5, unit: 'acre', n: 240, p: 18, k: 150, ph: 7.8 },
+    demo: true,
+  },
+  {
+    id: 'demo-3',
+    type: 'disease',
+    date: daysAgo(11),
+    crop: 'Potato',
+    diseaseId: 'potato-healthy',
+    title: 'Potato – Healthy',
+    confidence: 95.2,
+    healthy: true,
+    severity: 'None',
+    thumbnail: null,
+    demo: true,
+  },
+  {
+    id: 'demo-4',
+    type: 'disease',
+    date: daysAgo(19),
+    crop: 'Corn (Maize)',
+    diseaseId: 'corn-common-rust',
+    title: 'Corn (Maize) – Common Rust',
+    confidence: 87.9,
+    healthy: false,
+    severity: 'Moderate',
+    thumbnail: null,
+    demo: true,
+  },
+]
